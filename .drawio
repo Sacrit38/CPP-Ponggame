@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T07:55:20.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YmQWznRSr4h0vAoUfwBn" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T08:03:30.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ls3SEDdG67qHpO0jrv4z" version="22.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="978" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -154,10 +154,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-30" value="Kode Kelas" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-30" value="Jenis Tempat" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="690" y="644" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-31" value="Nama Kelas" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-31" value="Nama Tempat" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="690" y="584" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rnDNzWzCn7bHDK5vCDhE-34" value="IdBarang" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
@@ -169,7 +169,7 @@
             <mxPoint x="750" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-32" value="IdKelas" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-32" value="IdTempat" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="690" y="530" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rnDNzWzCn7bHDK5vCDhE-38" value="Nama Barang" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -331,14 +331,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-101" value="IdPeminjaman" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-101" value="IdPengembalian" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="270" y="490" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-102" value="Barang Dipinjam" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-102" value="Barang Dikembalikan" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="361" y="530" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rnDNzWzCn7bHDK5vCDhE-103" value="Yang Meminjam" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-103" value="Yang Mengembalikan" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="429" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rnDNzWzCn7bHDK5vCDhE-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381" y="415" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="247" y="415" />
+            </Array>
+            <mxPoint x="240" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-105" value="Tanggal Kembali" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="197" y="540" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
