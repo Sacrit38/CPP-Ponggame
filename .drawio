@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T07:23:04.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SsWmstKsgU4WRel1pV2L" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T07:27:14.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4vb5Xpu4dcijU2fjUFa9" version="22.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1035" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -237,6 +237,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="362" y="280" as="sourcePoint" />
             <mxPoint x="298" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-78" value="Peminjaman" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="178" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnDNzWzCn7bHDK5vCDhE-79" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="rnDNzWzCn7bHDK5vCDhE-78" target="rnDNzWzCn7bHDK5vCDhE-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="500" as="sourcePoint" />
+            <mxPoint x="300" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
